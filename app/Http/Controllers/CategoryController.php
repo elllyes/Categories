@@ -27,6 +27,8 @@ class CategoryController extends Controller
                 'enabled' => ['boolean'],
                 'published' => ['boolean']
                 ]);
+                $attributes['long_description'] = strip_tags($attributes['long_description']);
+
              Category::create($attributes);
              return view('/done');
         

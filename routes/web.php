@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PageController;
+use App\Models\Category;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,4 +20,5 @@ Route::get('/', [PageController::class, 'welcome']);
 Route::get('/create', [PageController::class, 'create']);
 Route::post('/create', [CategoryController::class, 'store']);
 
-Route::get('/done', [PageController::class, 'welcome']);
+Route::get('/done', [PageController::class, 'done']);
+Route::get('/show', [PageController::class, 'show']);

@@ -20,6 +20,9 @@
             }
         </style>
          <x-head.tinymce-config/>
+         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fontawesome.com/v4.7.0/examples/" rel="stylesheet">
          <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
          <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
         <link href="/C:/Users/USER/Desktop/category/vendor/symfony/error-handler/Resources/assets/fontawesome-free-6.2.0-web/css/fontawesome.css" rel="stylesheet">
